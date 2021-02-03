@@ -1,0 +1,49 @@
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.content-default{
+    padding: 20px;
+}
+
+.content-flex {
+    display: flex
+}
+
+#down {
+    padding: 0;
+    overflow: hidden;
+}
+
+.container-paralax {
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.content-paralax-data {
+    color: #fff;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bg-img-version-1 {
+    background-image: url('https://specials-images.forbesimg.com/imageserve/5f302109ffad89f9130e07db/960x0.jpg?cropX1=0&cropX2=4800&cropY1=243&cropY2=2943');
+}
