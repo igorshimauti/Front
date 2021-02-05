@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+html, body {
+    box-sizing: border-box;
+    background-image: url('https://cdn.hipwallpaper.com/i/86/68/PUrYSz.jpg');
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#app h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 4em;
+    padding-top: 5%;
+}
+
+.main-app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.main-app form {
+    margin-bottom: 5%;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.search-input {
+    width: 18em;
+    height: 3em;
+    font-size: 2em;
+    border: solid blueviolet;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.search-input:focus {
+    border: blue;
+}
+
+.get-result-button {
+    transition: 1s;
+    color: #fff;
+    background-color: blueviolet;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+}
+
+.get-result-button:hover {
+    transition: 1s;
+    background-color: red;
+}
+
+#results img {
+    border: 2px solid white;
+    transition: 1s;
+}
+
+#results img:hover {
+    height: 110%;
+    transition: 1s;
+    transform: scale(1.1);
+    z-index: 5;
+    box-shadow: 2px 3px 18px -4px;
+}
