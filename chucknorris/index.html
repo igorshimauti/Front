@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Chuck Norris Jokes</title>
+</head>
+<body onload="getJoke('dev')">
+    <nav id="categories" class="menu">
+        <li onclick="getJoke('animal')">Animal</li>
+        <li onclick="getJoke('career')">Career</li>
+        <li onclick="getJoke('celebrity')">Celebrity</li>
+        <li onclick="getJoke('dev')">Dev</li>
+        <li onclick="getJoke('explicit')">Explicit</li>
+        <li onclick="getJoke('fashion')">Fashion</li>
+        <li onclick="getJoke('food')">Food</li>
+        <li onclick="getJoke('history')">History</li>
+        <li onclick="getJoke('money')">Money</li>
+        <li onclick="getJoke('movie')">Movie</li>
+        <li onclick="getJoke('music')">Music</li>
+        <li onclick="getJoke('political')">Political</li>
+        <li onclick="getJoke('religion')">Religion</li>
+        <li onclick="getJoke('science')">Science</li>
+        <li onclick="getJoke('sport')">Sport</li>
+        <li onclick="getJoke('travel')">Travel</li>
+    </nav>
+    <div id="root" class="container">
+        
+        <div id="card" class="card">
+            <img id="avatar" src="" alt="">
+            <p id="joke"></p>
+        </div>
+    </div>
+</body>
+<script src="assets/app.js"></script>
+</html>
