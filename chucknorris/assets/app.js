@@ -6,7 +6,7 @@ const MODE = 'cors';
 
 async function getJoke(category) {
     createLoader();
-    
+
     const JOKE = await getRandomJokeFromCategory(category);
     let imgNode = document.getElementById('avatar');
     let jokeParagraph = document.getElementById('joke');
@@ -50,7 +50,7 @@ async function getRandomJokeFromCategory(category) {
 }
 
 function createLoader() {
-    let divRoot = document.getElementById("root");
+    let divRoot = document.getElementById("card");
     let divLoader = document.createElement('div');
     divLoader.setAttribute('id', 'divLoader');
     divLoader.setAttribute('class', 'loader');
